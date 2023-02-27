@@ -9,5 +9,9 @@ namespace TrainingApp
             Console.WriteLine("Hello World");
             Console.ReadLine();
         }
+
+        public static string ConvertToLower(string str){
+            return str.ToLower();
+        }
     }
 }
